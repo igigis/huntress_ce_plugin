@@ -1,0 +1,39 @@
+{
+  "name": "Huntress HEC Connector",
+  "version": "1.0",
+  "author": "Your Name or Company",
+  "description": "Connector to send events to Huntress via HTTP Event Collector.",
+  "keywords": ["huntress", "hec", "cloud exchange", "connector"],
+  "plugin_type": "push",
+  "entry_point": "huntress_hec_connector.py",
+  "configuration": [
+    {
+      "name": "token",
+      "type": "string",
+      "description": "Huntress HEC authentication token",
+      "required": true
+    },
+    {
+      "name": "verify_ssl",
+      "type": "boolean",
+      "default": true,
+      "description": "Verify SSL certificates"
+    }
+  ],
+  "actions": [
+    {
+      "name": "push_event",
+      "description": "Send event data to Huntress HEC",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "event": {
+            "type": "object",
+            "description": "Event data to send"
+          }
+        },
+        "required": ["event"]
+      }
+    }
+  ]
+}
