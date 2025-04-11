@@ -1,5 +1,5 @@
 {
-  "name": "huntress_ce_plugin",
+  "name": "huntress_ce_plugin_main",
   "version": "1.0",
   "author": "Ignatius Gigis",
   "description": "Connector to send events to Huntress via HTTP Event Collector.",
