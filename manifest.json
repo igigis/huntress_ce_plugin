@@ -1,7 +1,7 @@
 {
   "name": "Huntress HEC Connector",
   "version": "1.0",
-  "author": "Your Name or Company",
+  "author": "Ignatius Gigis",
   "description": "Connector to send events to Huntress via HTTP Event Collector.",
   "keywords": ["huntress", "hec", "cloud exchange", "connector"],
   "plugin_type": "push",
