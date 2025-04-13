@@ -4,7 +4,7 @@ This connector enables the forwarding of events from Netskope Cloud Exchange to 
 
 ## 📦 Files Included
 
-- `huntress_hec_connector.py` – Main connector logic
+- `main.py` – Main connector logic
 - `manifest.json` – Plugin definition file
 - `README.md` – Setup and usage instructions
 
