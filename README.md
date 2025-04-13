@@ -25,8 +25,8 @@ When configuring the connector in Cloud Exchange, you'll need to provide:
 
 1. Place the connector files in a directory:
    ```
-   huntress-hec-connector/
-   ├── huntress_hec_connector.py
+   huntress_ce_plugin/
+   ├── main.py
    ├── manifest.json
    └── README.md
    ```
