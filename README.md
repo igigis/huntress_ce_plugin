@@ -6,6 +6,7 @@ This connector enables the forwarding of events from Netskope Cloud Exchange to 
 
 - `main.py` – Main connector logic
 - `manifest.json` – Plugin definition file
+- `mappings.json` - mapped logs
 - `README.md` – Setup and usage instructions
 
 ## 🔧 Configuration
@@ -33,7 +34,7 @@ When configuring the connector in Cloud Exchange, you'll need to provide:
 
 2. Zip the contents:
    ```bash
-   zip -r huntress_ce_plugin.zip huntress_hec_connector.py manifest.json README.md 
+   zip -r huntress_ce_plugin.zip main.py manifest.json icon.png mappings.json CHANGELOG.md README.md 
    ```
 
 3. Upload the `.zip` file to your Netskope Cloud Exchange portal under **Plugins** > **Add Plugin**.
