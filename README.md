@@ -33,7 +33,7 @@ When configuring the connector in Cloud Exchange, you'll need to provide:
 
 2. Zip the contents:
    ```bash
-   zip -r huntress-hec-connector.zip huntress_hec_connector.py manifest.json README.md
+   zip -r huntress_ce_plugin.zip huntress_hec_connector.py manifest.json README.md 
    ```
 
 3. Upload the `.zip` file to your Netskope Cloud Exchange portal under **Plugins** > **Add Plugin**.
